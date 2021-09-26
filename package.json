@@ -2,8 +2,8 @@
   "name": "boilerplate",
   "version": "0.1.0",
   "private": true,
-  "author": "Lucky Jones Uayan",
-  "description": "I made this for my upcomming PE103 exam",
+  "author": "Lucky Jones",
+  "description": "I made this for my upcoming PE103 exam",
   "main": "./public/electron.js",
   "build": {
     "appId": "pe103.examCalc"
