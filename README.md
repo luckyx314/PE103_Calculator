@@ -1,4 +1,4 @@
-#PE103 Calculator and answer generator
+# PE103 Calculator and answer generator
 
 We were alowed to use a calculator for our PE exam. Since my instructor didn't specify what calculator should we use, I built my own.
 The functionality involves basic arithmetic, BMI, WHR, and THR calculation. Other additional features include generating answers when an keyword or a minute, related detail is searched.
