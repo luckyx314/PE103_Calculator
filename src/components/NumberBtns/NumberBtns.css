@@ -1,0 +1,26 @@
+.arithmeticContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 90%;
+    padding: 5px;
+    gap: 10px;
+}
+
+div.btnsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+  }
+  
+  button.numberBtns {
+    background: rgb(36, 36, 36);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button.numberBtns:hover {
+    background: rgb(32, 32, 32);
+  }

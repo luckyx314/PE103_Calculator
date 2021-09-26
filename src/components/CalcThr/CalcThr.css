@@ -1,0 +1,32 @@
+.calcThrContainer {
+    width: 100%;
+}
+
+.calcThrContainer input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 5px 5px;
+    margin: 1px 0;
+    color: rgb(145, 144, 144);
+}
+
+.displayThrDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.displayThrDetails button {
+    padding: 7px 5px;
+}
+
+.displayThrDetails p {
+    color: rgb(133, 133, 133);
+    font-size: .85rem;
+}
+
+.displayThrDetails p span {
+    margin-right: 15px;
+    color: rgb(133, 133, 133);
+    font-size: .85rem;
+}

@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+
+import NumberBtns from "./components/NumberBtns/NumberBtns"
+import SelectOperation from './components/SelectOperation/SelectOperation';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main>
+        <SelectOperation />
+        <NumberBtns />
+      </main>
     </div>
   );
 }

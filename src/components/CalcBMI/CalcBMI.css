@@ -1,0 +1,50 @@
+.calcBMi-container {
+    width: 100%;
+    position: relative;
+}
+
+.heightClassification select,
+.heightClassification button {
+    margin: 5px 0;
+    outline: none;
+    border: none;
+}
+
+.calcBMi-container input {
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border: none;
+    background: rgb(34, 34, 34);
+    color: white;
+}
+
+.heightClassification select,
+.heightClassification select option {
+    padding: 5px;
+    background: rgb(48, 47, 47);
+    color: white;
+}
+
+.heightClassification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin: 7px 0;
+}
+
+.calcBMI-btn {
+    position: absolute;
+    right: 0;
+}
+
+.displayResult {
+    margin: 10px 0;
+}
+.displayResult > p {
+    color: rgb(129, 128, 128);
+    font-size: .85rem;
+}
+
+

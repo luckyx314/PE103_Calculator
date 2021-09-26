@@ -1,0 +1,21 @@
+.whrStatusContainer {
+    width: 100%;
+}
+
+.whrStatusContainer input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 7px 5px;
+    color: rgb(129, 129, 129);
+    margin: 2px 0;
+}
+
+.whrStatusContainer > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whrStatusContainer > div span {
+    margin-right: 10px;
+}

@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  background-color: rgb(39, 39, 39);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+select {
+  background-color: rgb(39, 39, 39);
+  color: rgb(136, 135, 135);
+  outline: none;
+  border: none;
+  padding: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+  background-color: rgb(39, 39, 39);
+  outline: none;
+  border: none;
+  color: rgb(170, 169, 169);
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+option {
+  background-color: rgb(39, 39, 39);
+  color: rgb(136, 135, 135);
+  outline: none;
+  border: none;
+  padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background-color: rgb(20, 20, 20);
 }
+
+main {
+  padding: 10px;
+}
+

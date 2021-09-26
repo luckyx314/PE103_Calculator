@@ -1,0 +1,47 @@
+.searchAnswerContainer {
+    position: relative;
+}
+
+.searchAnswerContainer select {
+    background: rgb(19, 19, 19);
+    color: rgb(145, 142, 142);
+    border: none;
+    outline: none;
+}
+
+.searchAnswerContainer option {
+    background: rgb(19, 19, 19);
+    color: rgb(145, 142, 142);
+}
+
+.searchAnswerInput {
+    width: 100%;
+    background: rgb(37, 37, 37);
+    padding: 5px 5px;
+    margin: 1px 0;
+    border: none;
+    outline: none;
+    color: rgb(145, 142, 142);
+}
+
+.searchAnswerContainer button {
+    position: absolute;
+    right: 0;
+    background: rgb(19, 19, 19);
+    padding: 7px 15px;
+    color: rgb(145, 142, 142);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.searchAnswerOptionsContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+p.topicSentence {
+    color: rgb(107, 106, 106);
+    font-size: .85rem;
+}
